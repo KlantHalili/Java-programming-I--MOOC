@@ -7,6 +7,21 @@ public class SimpleCalculator {
         Scanner scanner = new Scanner(System.in);
 
         // Write your program here
+<<<<<<< HEAD
+=======
+        System.out.println("Give the first number:");
+        int a = Integer.valueOf(scanner.nextLine());
+        System.out.println("Give the second number:");
+        int b = Integer.valueOf(scanner.nextLine());
+        int sum = a + b;
+        int sub = a - b;
+        int mult = a * b;
+        double div = (double) a / b;
+        System.out.println(a +" + "+b+" = "+sum);
+        System.out.println(a +" - "+b+" = "+sub);
+        System.out.println(a +" * "+b+" = "+mult);
+        System.out.println(a +" / "+b+" = "+div);
+>>>>>>> 0ccf91eb9230efe2a8bf702228293770df8f45df
 
     }
 }

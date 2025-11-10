@@ -10,6 +10,20 @@ public class Product {
         this.location = location;
         this.weight = weight;
     }
+<<<<<<< HEAD
+=======
+    public Product(String name){
+        this(name, "shelf", 1);
+    }
+    
+    public Product(String name, String location){
+        this(name, location, 1);
+    }
+    
+    public Product (String name, int weight){
+        this(name, "shelf", weight);
+    }
+>>>>>>> 0ccf91eb9230efe2a8bf702228293770df8f45df
 
     
     public String getName() {

@@ -22,6 +22,7 @@ public class StoringRecords {
 
     public static ArrayList<Person> readRecordsFromFile(String file) {
         ArrayList<Person> persons = new ArrayList<>();
+<<<<<<< HEAD
         try (Scanner reader = new Scanner(Paths.get(file))){
             while (reader.hasNextLine()){
                 String input = reader.nextLine();
@@ -36,5 +37,12 @@ public class StoringRecords {
         // Write here the code for reading from file
         // and printing the read records
         return persons;
+=======
+
+        // Write here the code for reading from file
+        // and printing the read records
+        return persons;
+
+>>>>>>> 0ccf91eb9230efe2a8bf702228293770df8f45df
     }
 }

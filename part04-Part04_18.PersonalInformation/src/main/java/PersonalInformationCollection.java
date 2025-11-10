@@ -9,6 +9,26 @@ public class PersonalInformationCollection {
 
         ArrayList<PersonalInformation> infoCollection = new ArrayList<>();
         Scanner scanner = new Scanner(System.in);
+<<<<<<< HEAD
+=======
+        while (true){
+            System.out.println("First name: ");
+            String emri = scanner.nextLine();
+            if (emri.equals("")){
+                break;
+            }
+            System.out.println("Last name: ");
+            String mbiemri = scanner.nextLine();
+            System.out.println("Identification number: ");
+            String identifikimi = scanner.nextLine();
+            infoCollection.add(new PersonalInformation(emri, mbiemri, identifikimi));
+            
+        }
+        for (PersonalInformation info : infoCollection) {
+         System.out.println(info.getFirstName() + " " + info.getLastName());
+}
+
+>>>>>>> 0ccf91eb9230efe2a8bf702228293770df8f45df
 
     }
 }

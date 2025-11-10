@@ -1,5 +1,6 @@
 
 public class Statistics {
+<<<<<<< HEAD
     private int number;
     private int count;
     
@@ -36,4 +37,6 @@ public class Statistics {
         }
         return average;
     }
+=======
+>>>>>>> 0ccf91eb9230efe2a8bf702228293770df8f45df
 }

@@ -14,6 +14,10 @@ public class NullPointerExceptionProgram {
         lines.add("give up most of his life for physics and research of many hypothesis. But, this is why");
         lines.add("you and I have even heard of the quantum theory and atomic structures. Bohr came");
         lines.add("up with his quantum theory while studying...");
+<<<<<<< HEAD
+=======
+        lines = null;
+>>>>>>> 0ccf91eb9230efe2a8bf702228293770df8f45df
 
         int index = 0;
         while (index < lines.size()) {

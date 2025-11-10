@@ -17,6 +17,10 @@ public class ThirdElement {
             list.add(input);
         }
 
+<<<<<<< HEAD
         System.out.println(lista.get(0));
+=======
+        System.out.println(list.get(2));
+>>>>>>> 0ccf91eb9230efe2a8bf702228293770df8f45df
     }
 }

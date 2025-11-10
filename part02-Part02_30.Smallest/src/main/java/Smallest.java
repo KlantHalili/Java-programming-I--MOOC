@@ -5,7 +5,16 @@ public class Smallest {
         // Write some code here
         // don't print anything inside this method
         // there must be a return in the end of the method
+<<<<<<< HEAD
         return -1;
+=======
+        boolean compare = number1 > number2;
+        if (compare == true){
+            return number2;
+        }   else {
+            return number1;
+        }
+>>>>>>> 0ccf91eb9230efe2a8bf702228293770df8f45df
     }
 
     public static void main(String[] args) {

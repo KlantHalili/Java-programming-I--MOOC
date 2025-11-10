@@ -15,4 +15,8 @@ public class Main {
             System.out.println("Strange things are afoot.");
         }
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 0ccf91eb9230efe2a8bf702228293770df8f45df

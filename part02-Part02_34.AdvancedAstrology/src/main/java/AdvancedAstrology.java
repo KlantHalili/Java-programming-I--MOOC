@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 public class AdvancedAstrology {
 
@@ -25,5 +26,43 @@ public class AdvancedAstrology {
         christmasTree(4);
         System.out.println("---");
         christmasTree(10);
+=======
+public class AdvancedAstrology {
+    public static void printStars(int number) {
+        for (int i = 0; i < number; i++) {
+            System.out.print("*");
+        }
+        System.out.println();
+    }
+
+    public static void printTriangle(int size) {
+        for (int i = size; i > 0; i--) {
+            printSpaces(i - 1);
+            printStars(size - i + 1);
+        }
+    }
+
+
+    public static void printSpaces(int number) {
+        for (int i = 1; i <= number; i++) {
+            System.out.print(" ");
+        }
+    }
+
+
+    public static void christmasTree(int height) {
+        for (int i = 1; i <= height; i++) {
+            printSpaces(height - i);
+            printStars(i * 2 - 1);
+        }
+        for (int i = 0; i < 2; i++) {
+            printSpaces(height - 2);
+            printStars(3);
+        }
+    }
+
+    public static void main(String[] args) {
+        christmasTree(8);
+>>>>>>> 0ccf91eb9230efe2a8bf702228293770df8f45df
     }
 }

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 public class MainProgram {
 
@@ -9,3 +10,25 @@ public class MainProgram {
 
     }
 }
+=======
+public class MainProgram {
+    public static void main(String[] args) {
+        PaymentCard Paul = new PaymentCard (20);
+        PaymentCard Matt = new PaymentCard (30);
+        
+        Paul.eatHeartily();
+        Matt.eatAffordably();
+        System.out.println("Paul: "+Paul);
+        System.out.println("Matt: "+Matt);
+        Paul.addMoney(20);
+        Matt.eatHeartily();
+        System.out.println("Paul: "+Paul);
+        System.out.println("Matt: "+Matt);
+        Paul.eatAffordably();
+        Paul.eatAffordably();
+        Matt.addMoney(50);
+        System.out.println("Paul: "+Paul);
+        System.out.println("Matt: "+Matt);
+    }
+}
+>>>>>>> 0ccf91eb9230efe2a8bf702228293770df8f45df

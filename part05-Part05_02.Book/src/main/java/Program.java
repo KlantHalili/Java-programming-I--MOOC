@@ -7,6 +7,7 @@ public class Program {
         // An example that you can use for testing:
 
 
+<<<<<<< HEAD
         Book b = new Book("J. K. Rowling", "Harry Potter and the Sorcerer's Stone", 223);
         Book a = new Book("Klanti","Java",500);
         System.out.println(b);
@@ -14,6 +15,10 @@ public class Program {
         System.out.println(a.getAuthor());
         System.out.println(b.getPages());
         System.out.println("Total number of pages: "+(a.getPages()+b.getPages()));
+=======
+//        Book b = new Book("J. K. Rowling", "Harry Potter and the Sorcerer's Stone", 223);
+//        System.out.println(b);
+>>>>>>> 0ccf91eb9230efe2a8bf702228293770df8f45df
 
     }
 }

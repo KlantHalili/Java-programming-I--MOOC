@@ -31,6 +31,7 @@ public class Money {
 
         return this.euros + "." + zero + this.cents + "e";
     }
+<<<<<<< HEAD
     
     public Money decreaser(Money decreaser){
         Money tempMoney;
@@ -70,5 +71,7 @@ public class Money {
 }
 
 
+=======
+>>>>>>> 0ccf91eb9230efe2a8bf702228293770df8f45df
 
 }

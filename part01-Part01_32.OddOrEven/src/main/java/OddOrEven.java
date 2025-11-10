@@ -4,9 +4,22 @@ import java.util.Scanner;
 public class OddOrEven {
 
     public static void main(String[] args) {
+<<<<<<< HEAD
         Scanner scan = new Scanner(System.in);
 
         // Write your program here 
+=======
+        Scanner scanner = new Scanner(System.in);
+
+        // Write your program here 
+        System.out.println("Give a number:");
+        int a = scanner.nextInt();
+        if ((a % 2)== 0){
+            System.out.println("Number "+a+" is even.");
+        } else {
+            System.out.println("Number "+a+" is odd.");
+        }
+>>>>>>> 0ccf91eb9230efe2a8bf702228293770df8f45df
         // HINT:
         // You can find out if a number is even or odd easily using the modulo operator %
         // Try the following commands to see what they print

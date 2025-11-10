@@ -16,6 +16,14 @@ public class RememberTheseNumbers {
 
             numbers.add(luku);
         }
+<<<<<<< HEAD
+=======
+        int n = 0;
+        while (n<numbers.size()){
+            System.out.println(numbers.get(n));
+            n++;
+        }
+>>>>>>> 0ccf91eb9230efe2a8bf702228293770df8f45df
 
     }
 }

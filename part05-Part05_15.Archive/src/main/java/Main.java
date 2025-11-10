@@ -6,6 +6,7 @@ public class Main {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+<<<<<<< HEAD
         ArrayList<Item> list = new ArrayList();
 
         //loop to ask for input until an empty string is entered
@@ -39,3 +40,9 @@ public class Main {
 
     }
 }
+=======
+
+
+    }
+}
+>>>>>>> 0ccf91eb9230efe2a8bf702228293770df8f45df

@@ -6,6 +6,7 @@ import java.util.Scanner;
 public class Program {
 
     public static void main(String[] args) {
+<<<<<<< HEAD
 
         Scanner scanner = new Scanner(System.in);
         ArrayList<String> jokes = new ArrayList<>();
@@ -40,5 +41,12 @@ public class Program {
         }
         }
         }
+=======
+        JokeManager manager = new JokeManager();
+Scanner scanner = new Scanner(System.in);
+
+UserInterface ui = new UserInterface(manager, scanner);
+ui.start();
+>>>>>>> 0ccf91eb9230efe2a8bf702228293770df8f45df
     }
 }

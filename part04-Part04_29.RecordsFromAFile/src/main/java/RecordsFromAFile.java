@@ -1,12 +1,16 @@
 
 import java.nio.file.Paths;
 import java.util.Scanner;
+<<<<<<< HEAD
 import java.util.ArrayList;
+=======
+>>>>>>> 0ccf91eb9230efe2a8bf702228293770df8f45df
 
 public class RecordsFromAFile {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+<<<<<<< HEAD
         ArrayList <Double> ages = new ArrayList <>();
         ArrayList <String> names = new ArrayList<>();
         System.out.println("Name of the file:");
@@ -32,5 +36,8 @@ public class RecordsFromAFile {
                 System.out.println(names.get(i)+", age: "+ages.get(i)+" years");
             }
         }
+=======
+
+>>>>>>> 0ccf91eb9230efe2a8bf702228293770df8f45df
     }
 }

@@ -7,5 +7,11 @@ public class NumberUno {
         Scanner scanner = new Scanner(System.in);
 
     }
+<<<<<<< HEAD
 
+=======
+    public static int numberUno(){
+        return 1;
+    }
+>>>>>>> 0ccf91eb9230efe2a8bf702228293770df8f45df
 }

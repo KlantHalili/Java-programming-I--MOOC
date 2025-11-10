@@ -5,6 +5,7 @@ public class MainProgram {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+<<<<<<< HEAD
         
         Statistics statistics = new Statistics();
         Statistics statisticsEven = new Statistics();
@@ -29,6 +30,8 @@ public class MainProgram {
         
        
         
+=======
+>>>>>>> 0ccf91eb9230efe2a8bf702228293770df8f45df
         // you can write test code here
         // however, remove all unnecessary code when doing the final parts of the exercise
 

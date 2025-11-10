@@ -3,6 +3,7 @@ public class MainProgram {
 
     public static void main(String[] args) {
         // test your class here
+<<<<<<< HEAD
       Money a = new Money(10, 0);
 Money b = new Money(3, 50);
 
@@ -19,5 +20,7 @@ c = c.minus(a);       // NB: a new Money object is created, and is placed "at th
 System.out.println(a);  // 10.00e
 System.out.println(b);  // 3.50e
 System.out.println(c);
+=======
+>>>>>>> 0ccf91eb9230efe2a8bf702228293770df8f45df
     }
 }

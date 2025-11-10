@@ -5,6 +5,7 @@ public class Program {
         // This is an empty main method where you can experiment
         // with your Fitbyte class
 
+<<<<<<< HEAD
         Fitbyte fitbyte = new Fitbyte(30, 60);
 
        double percentage = 0.5;
@@ -14,6 +15,17 @@ public class Program {
             System.out.println("Target " + (percentage * 100) + "% of maximum: " + target);
             percentage += 0.1;
         }
+=======
+//        Fitbyte fitbyte = new Fitbyte(30, 60);
+//
+//        double percentage = 0.5;
+//
+//        while (percentage < 1.0) {
+//            double target = fitbyte.targetHeartRate(percentage);
+//            System.out.println("Target " + (percentage * 100) + "% of maximum: " + target);
+//            percentage += 0.1;
+//        }
+>>>>>>> 0ccf91eb9230efe2a8bf702228293770df8f45df
 
     }
 }

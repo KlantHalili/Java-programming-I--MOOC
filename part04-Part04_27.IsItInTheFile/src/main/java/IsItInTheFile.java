@@ -9,6 +9,7 @@ public class IsItInTheFile {
 
         System.out.println("Name of the file:");
         String file = scanner.nextLine();
+<<<<<<< HEAD
         System.out.println("Search for:");
         String searchedFor = scanner.nextLine();
         boolean found = false;
@@ -29,5 +30,11 @@ public class IsItInTheFile {
         } else {
             System.out.println("Not found!");
         }
+=======
+
+        System.out.println("Search for:");
+        String searchedFor = scanner.nextLine();
+
+>>>>>>> 0ccf91eb9230efe2a8bf702228293770df8f45df
     }
 }

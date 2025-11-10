@@ -10,12 +10,15 @@ public class SimpleDate {
         this.month = month;
         this.year = year;
     }
+<<<<<<< HEAD
     
     public SimpleDate afterNumberOfDays(int days){
         SimpleDate newDate = new SimpleDate(this.day, this.month, this.year);
         newDate.advance(days);
         return newDate;
     }
+=======
+>>>>>>> 0ccf91eb9230efe2a8bf702228293770df8f45df
 
     @Override
     public String toString() {
@@ -38,6 +41,7 @@ public class SimpleDate {
 
         return false;
     }
+<<<<<<< HEAD
     
     public void advance(){
         this.day++;
@@ -67,5 +71,7 @@ public class SimpleDate {
     this.year += addedYears;
 }
 
+=======
+>>>>>>> 0ccf91eb9230efe2a8bf702228293770df8f45df
 
 }

@@ -5,7 +5,18 @@ public class DivisibleByThree {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+<<<<<<< HEAD
 
+=======
+        divisibleByThreeInRange(2, 10);
+    }
+    public static void divisibleByThreeInRange(int beginning, int end){
+        for (int i=beginning; i<= end; i++){
+            if (i %3 == 0){
+                System.out.println(i);
+            }
+        }
+>>>>>>> 0ccf91eb9230efe2a8bf702228293770df8f45df
     }
 
 }
