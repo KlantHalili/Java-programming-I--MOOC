@@ -1,0 +1,9 @@
+Klinti, 3
+Sokol, 1
+Ernald, 2
+Beni, 5
+Uarda, 3000000
+Ana, 20
+darela, 20
+Ana, 100
+Elda, 10.0101
