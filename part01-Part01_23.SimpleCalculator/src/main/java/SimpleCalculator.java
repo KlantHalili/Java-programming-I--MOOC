@@ -6,9 +6,6 @@ public class SimpleCalculator {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // Write your program here
-<<<<<<< HEAD
-=======
         System.out.println("Give the first number:");
         int a = Integer.valueOf(scanner.nextLine());
         System.out.println("Give the second number:");
@@ -21,7 +18,6 @@ public class SimpleCalculator {
         System.out.println(a +" - "+b+" = "+sub);
         System.out.println(a +" * "+b+" = "+mult);
         System.out.println(a +" / "+b+" = "+div);
->>>>>>> 0ccf91eb9230efe2a8bf702228293770df8f45df
 
     }
 }
