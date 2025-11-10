@@ -3,13 +3,6 @@ import java.util.Scanner;
 
 public class AverageOfThreeNumbers {
 
-<<<<<<< HEAD
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-
-        // Write your program here
-
-=======
    public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -22,6 +15,5 @@ public class AverageOfThreeNumbers {
         int c = Integer.valueOf(scanner.nextLine());
         double average = (double)(a+b+c)/3;
         System.out.println("The average is "+average);
->>>>>>> 0ccf91eb9230efe2a8bf702228293770df8f45df
     }
 }
