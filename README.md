@@ -12,6 +12,9 @@ The course covers the fundamentals of programming in Java, including:
 - Object-oriented programming basics
 
 Each folder represents a module from the course. Inside, you’ll find the exercises and solutions I submitted via the TMC system.
+Below you can also find my certificate for completing this part of the course.
 
 I’ve also completed **Java Programming II**, which builds on these concepts. You can find that repository [here](https://github.com/KlantHalili/Java-programming-II--MOOC.git)
+
+<img width="3508" height="2480" alt="certificate-java-programming-i" src="https://github.com/user-attachments/assets/d0089607-d599-4b5c-9cee-b1c6eb5110b4" />
 
