@@ -2,9 +2,7 @@
 import java.util.Scanner;
 <<<<<<< HEAD
 
-=======
 import java.util.ArrayList;
->>>>>>> 0ccf91eb9230efe2a8bf702228293770df8f45df
 public class mainProgram {
 
     public static void main(String[] args) {
@@ -12,10 +10,8 @@ public class mainProgram {
         // if and when you create other classes, pass the scanner to them
         // as a parameter
 
-<<<<<<< HEAD
         Scanner scan = new Scanner(System.in);
 
-=======
         Scanner scanner = new Scanner(System.in);
         ArrayList<Bird> birds = new ArrayList<>();
         while (true){
@@ -71,7 +67,6 @@ public class mainProgram {
             continue;
             }
         }
->>>>>>> 0ccf91eb9230efe2a8bf702228293770df8f45df
     }
 
 }
