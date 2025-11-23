@@ -1,14 +1,5 @@
-<<<<<<< HEAD
 
 
-public class Main {
-
-    public static void main(String[] args) {
-        // insert test code here
-        int[] array = {3, 1, 5, 99, 3, 12};
-    }
-
-=======
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
@@ -49,5 +40,4 @@ public class Main {
         sortStrings(wordList);
         System.out.println("Sorted ArrayList<String>: " + wordList);
     }
->>>>>>> 0ccf91eb9230efe2a8bf702228293770df8f45df
 }
