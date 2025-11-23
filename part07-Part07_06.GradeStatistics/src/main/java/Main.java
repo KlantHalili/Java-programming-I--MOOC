@@ -4,13 +4,11 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-<<<<<<< HEAD
         Scanner scanner = new Scanner(System.in);
         
         // Write your program here -- consider breaking the program into 
         // multiple classes.
     }
-=======
     Scanner scanner = new Scanner(System.in);
     Statistics stats = new Statistics();
     GradeDistribution dist = new GradeDistribution();
@@ -33,6 +31,4 @@ public class Main {
     System.out.println("Grade distribution:");
     dist.printDistribution();
 }
-
->>>>>>> 0ccf91eb9230efe2a8bf702228293770df8f45df
 }
